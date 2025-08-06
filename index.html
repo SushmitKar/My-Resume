@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Resume</title>
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --accent: #3498db;
+      --bg: #f4f4f4;
+      --text: #333;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      color: var(--primary);
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: var(--accent);
+    }
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: var(--primary);
+      margin-bottom: 10px;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>AI/ML Developer | Cybersecurity Enthusiast | Full-Stack Engineer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am a passionate AI and cybersecurity enthusiast with experience in full-stack web development and machine learning. I enjoy building intelligent applications that solve real-world problems.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Languages: Python, JavaScript, C++</li>
+      <li>Frameworks: React, FastAPI, Node.js</li>
+      <li>Tools: Git, Docker, MongoDB, Postman</li>
+      <li>AI/ML: scikit-learn, Transformers, OpenCV</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>TruthLens:</strong> Fake news detection platform with bias explanation and credibility graph.</li>
+      <li><strong>SecureChat:</strong> Encrypted chat app using AES/RSA with real-time features.</li>
+      <li><strong>HealthTrack:</strong> AI-based fitness tracker with real-time pose estimation.</li>
+    </ul>
+  </section>
+
+  <section class="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech in Computer Science</strong><br>XYZ University, 2021–2025</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+  </section>
+
+</body>
+</html>
