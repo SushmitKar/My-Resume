@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Resume</title>
+  <title>Sushmit Kar - Resume</title>
   <style>
     :root {
       --primary: #2c3e50;
@@ -26,6 +26,15 @@
     header {
       text-align: center;
       margin-bottom: 40px;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--accent);
+      margin-bottom: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     header h1 {
       color: var(--primary);
@@ -57,9 +66,16 @@
       color: var(--accent);
       text-decoration: none;
     }
+    .contact a:hover {
+      text-decoration: underline;
+    }
     @media (max-width: 600px) {
       header h1 {
         font-size: 1.8rem;
+      }
+      .profile-pic {
+        width: 100px;
+        height: 100px;
       }
     }
   </style>
@@ -67,6 +83,7 @@
 <body>
 
   <header>
+    <img src="profile.jpg" alt="Profile Picture" class="profile-pic"/>
     <h1>Sushmit Kar</h1>
     <p>AI/ML Developer | Data Science Enthusiast | Full-Stack Engineer</p>
   </header>
@@ -102,9 +119,9 @@
 
   <section class="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:your.email@example.com">kar.sushmit@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/SushmitKar</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">www.linkedin.com/in/sushmitkar</a></p>
+    <p>Email: <a href="mailto:kar.sushmit@gmail.com">kar.sushmit@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/SushmitKar" target="_blank">github.com/SushmitKar</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/sushmitkar" target="_blank">linkedin.com/in/sushmitkar</a></p>
   </section>
 
 </body>
